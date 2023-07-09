@@ -24,11 +24,11 @@ a {
 }
 
 /* Main Header Styles */
-.main-header{
+.main-header {
     background-color: #FFF8F3;
 }
 
-.header-content{
+.header-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -36,17 +36,33 @@ a {
 }
 
 /* Menu  Styles */
-.main-menu{
+.main-menu {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.main-menu .menu-item{
+.main-menu .menu-item {
     list-style-type: none;
 }
 
-.main-menu .menu-link{
+.main-menu .menu-link {
     display: inline;
     padding: 10px 20px;
+}
+
+/* Footer Style */
+.footer-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.ft-section-title {
+    color: #181818;
+    text-align: left;
+    font-family: "Open Sans";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
