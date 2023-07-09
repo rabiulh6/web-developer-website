@@ -1,0 +1,51 @@
+/* Global Styles */
+/* Global Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Common use styles */
+.container {
+    max-width: 1140px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Main Header Styles */
+.main-header{
+    background-color: #FFF8F3;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Menu  Styles */
+.main-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-menu .menu-item{
+    list-style-type: none;
+}
+
+.main-menu .menu-link{
+    display: inline;
+    padding: 10px 20px;
+}
